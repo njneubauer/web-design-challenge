@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="Visualizations.css">
 </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="/index.html">Latitude</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -41,13 +41,17 @@
             <div class="row">
                 <div class="col-sm-12 col-lg-8">
                     <div class="jumbotron">
-                        <h1 class="display-4">Summary: Latitude vs. X</h1>
+                        <h1 class="display-4">Max Temperature</h1>
                         <hr class="my-3">
-                          <img id="main-img" class="rounded mx-auto d-block" src="/Resources/assets/images/Fig1.png" width="500px" alt="City Latitude vs Max Temp Plot" /><br />
+                        <div class="row">
+                          <figure class="rounded col-12">
+                            <img id="main-img" class="img-fluid rounded" src="/Resources/assets/images/Fig1.png" alt="City Latitude vs Max Temp Plot" /><br />
+                          </figure>
                               <p>As expected, the temperature appears to become warmer closer to the equator you get, but as you continue into the souther hemisphere the weather
                                 appears to be warmer during this time of year (winter) than the northern hemisphere. This phenomenon is likely due to the earths axis and which places
                                 the northern hemisphere further from the sun than the southern hemisphere.
                               </p>
+                          </div>
                      </div>
                  </div>    
 
@@ -76,7 +80,6 @@
                     </div>
                 </div>
             </div> 
-
 
           <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

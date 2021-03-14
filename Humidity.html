@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Latitude</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Visualizations.css">
 </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="/index.html">Latitude</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand" href="/index.html">Latitude</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,16 +28,59 @@
                     </div>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Comparison <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="/Comparison.html">Comparison <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Data</a>
+                  <a class="nav-link" href="/Data.html">Data</a>
                 </li>
               </ul>
             </div>
           </nav>
 
+          <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="jumbotron">
+                        <h1 class="display-4">Humidity</h1>
+                        <hr class="my-3">
+                        <div class="row">
+                          <figure class="rounded col-12">
+                            <img id="main-img" class="img-fluid rounded" src="/Resources/assets/images/Fig2.png" alt="City Latitude vs Max Temp Plot" /><br />
+                          </figure>
+                              <p>According to this plot, the humidity near the equator appears to vary slightly less with higher humidities seen near the equator. To the northern hemisphere 
+                                we can see more clusters of data near the 80-60% range. It is difficult to detect a definate pattern from this plot as it appears humidity may vary greatly in both
+                                hemispheres. It would be assumed that near the equator would be the most humid as the warmer climate would cause water in this region to evaporate increasing the humidity.
 
+                              </p>
+                          </div>
+                     </div>
+                 </div>    
+
+                <div class="col-sm-12  col-lg-4">
+                    <div id ='jumbo-right' class="jumbotron">
+                        <h1 class="display-4">Visualizations</h1>
+                        <hr class="my-3">
+                                    <div class="row">
+                                      <figure class="rounded col-6">
+                                          <a href="/Max_Temperature.html"><img class="img-fluid" src="/Resources/assets/images/Fig1.png" alt="Latitude vs Max Temp"></a>    
+                                      </figure>
+                                  
+                                      <figure id="active-img" class="rounded  col-6">
+                                          <a href="/Humidity.html"><img class="img-fluid" src="/Resources/assets/images/Fig2.png" alt="Latitude vs Humidity"></a>
+                                      </figure>
+                                    </div>
+                                    <div class="row">
+                                      <figure class="rounded col-6">
+                                          <a href="/Cloudiness.html"><img class="img-fluid" src="/Resources/assets/images/Fig3.png" alt="Latitude vs Cloudiness"></a>
+                                      </figure>
+      
+                                      <figure class="rounded col-6">
+                                          <a href="/Wind_Speed.html"><img class="img-fluid" src="/Resources/assets/images/Fig4.png" alt="Latitude vs Wind Speed"></a>   
+                                      </figure>
+                                    </div>
+                    </div>
+                </div>
+            </div> 
 
           <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
