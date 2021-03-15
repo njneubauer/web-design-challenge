@@ -40,12 +40,6 @@ body {
     font-size: 18px;
 }
 
-@media only screen and (max-width: 767px) {
-    #jumbotron-h1{ 
-       font-size: 40px;
-    }
-}
-
 #jumbo-right h1 {
     font-size: 25pt;
     margin: auto;
