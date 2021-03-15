@@ -1,9 +1,11 @@
 body {
-    background-color: rgb(204, 201, 201);
+    background-color: rgb(107, 107, 107);
+    color: #FFFFFF;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .navbar-brand {
-    background-color: rgb(40, 189, 139);
+    background-color: rgb(10, 132, 180);
     margin: 0px;
     padding: 10px 10px 10px 10px;
     font-size: x-large;
@@ -14,43 +16,33 @@ body {
 .navbar {
     padding-top: 0px;
     padding-bottom: 0px;
-    padding-left: 0px;
+    padding-left: 15px;
 }
 
 .jumbotron {
-    margin-top: 30px;
-    padding-bottom: 10px;
-}
-
-.jumbotron h1{ 
-    font-size: 45px;
-    font: bold;
+    margin-top: 20px;
+    padding: 5px;
 }
 
 .jumbotron p {
     font-size: 18px;
 }
 
+
+@media only screen and (max-width: 767px) {
+
+    .jumbotron p {
+        font-size: 14px;
+    }
+
+.jumbotron h1 {
+    font-size: 45px;
+    font: bold;
+}
+
 #jumbo-right h1 {
     font-size: 25pt;
     margin: auto;
-}
-
-#main-img {
-    float: left;
-    width: 300px;
-    margin-right: 25px;
-}
-
-img {
-    width: 125px;
-    float: left;
-}
-
-.center {
-    margin: auto;
-    display: inline;
-    width: 50%;
 }
 
 #active-img {
@@ -68,3 +60,5 @@ figure a img:hover {
     -ms-transform:scale(1);
     -o-transform:scale(1);
 }
+
+

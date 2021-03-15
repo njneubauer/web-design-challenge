@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(204, 201, 201);
+    background-color: rgb(107, 107, 107);
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .navbar-brand {
-    background-color: rgb(40, 189, 139);
+    background-color: rgb(10, 132, 180);
     margin: 0px;
     padding: 10px 10px 10px 10px;
     font-size: x-large;
@@ -15,52 +15,59 @@ body {
 .navbar {
     padding-top: 0px;
     padding-bottom: 0px;
-    padding-left: 0px;
+    padding-left: 15px;
 }
 
 
 .jumbotron {
+    background-color: rgb(180, 180, 180);
     margin-top: 30px;
+    padding-top: 25px;
     padding-bottom: 10px;
-}
-
-h1 {
-    color: rgb(40, 189, 139);
-    font-weight: 600;
-
 }
 
 h3 {
     text-align: center;
 }
 
-@media only screen and (max-width: 767px) {
-
-    h1 { 
-       font-size: 1.9rem;
-       font-weight: 600; 
+@media only screen and (max-width: 992px) {
+    #jumbotron-h1{ 
+       font-size: 3rem;
     }
+}
+
+@media only screen and (max-width: 767px) {
+    #jumbotron-h1 { 
+       font-size: 2rem;
+    }
+}
 
 @media only screen and (max-width: 467px) {
-
-    h1 { 
-        font-size: 1.6rem;
-        font-weight: 600; 
+    #jumbotron-h1 { 
+        font-size: 1.6rem; 
     }
-@media only screen and (max-width: 404px) {
+}
 
-    h1 { 
+@media only screen and (max-width: 404px) {
+    #jumbotron-h1 { 
         font-size: 1.4rem;
-        font-weight: 600; 
-        }
+    }
+}
 
 figure a img:hover {
     border: 4px solid rgba(33, 168, 123, 0.336);
-    padding: 2px 2px 2px 2px;
+    padding: 2px;
+    margin: -5px;
     -webkit-transform:scale(1); 
     -moz-transform:scale(1); 
     -ms-transform:scale(1);
     -o-transform:scale(1);
 }
 
+img {
+    width: 375px;
+}
 
+figure {
+    text-align: center;
+}
